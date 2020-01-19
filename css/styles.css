@@ -1,10 +1,26 @@
 body{
   background: #efefef;
   font-family: arial;
+  margin:0;
+  padding:0;
 }
 
 #header {
 background-color: #0E82F6;
 text-align:center;
 
+}
+.mondrian-art{ /* drawing-canva*/
+	height: 660px;
+	width: 600px;
+	margin:20%;
+	paddding:10%;
+	
+}
+.box1{
+	background-color:#470afc;
+	height:300px;
+	width:310px;
+	border:20px solid black;
+	
 }
