@@ -21,6 +21,12 @@ text-align:center;
 	background-color:#470afc;
 	height:300px;
 	width:310px;
-	border:20px solid black;
+	border:15px solid black;
 	
+}
+.box2{
+	background: #fc0303;
+	height:250px;
+	width:210px;
+	border:10px solid black;
 }
