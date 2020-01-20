@@ -45,7 +45,7 @@ li{
 .box5{
 	background: white;
 	grid-column: span 2;
-	grid-row: span 3;
+	grid-row: span 2;
 
 }.box6{
 	background: blue;
@@ -55,7 +55,7 @@ li{
 }
 .box7{
 	background: black;
-	grid-row: span 2;
+	grid-row: span 4;
 	grid-column: span 1;
 	
 	
@@ -74,8 +74,8 @@ li{
 }
 .box10{
 	background: blue;
-	grid-column: span 3;
-	grid-row: span 3;
+	grid-column: span 1;
+	grid-row: span 10;
 	
 }
 @media only screen and (max-width: 600px){
