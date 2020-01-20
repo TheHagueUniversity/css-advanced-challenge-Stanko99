@@ -10,72 +10,64 @@ background-color: #0E82F6;
 text-align:center;
 
 }
-.mondrian-art{ /* drawing-canva*/
-	height: 800px;
-	width: 600px;
-	margin:20%;
-	paddding:10%;
-	
-}
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(5,10em) 20em 15em 10em 15em;
+	grid-template-rows: repeat(5,10em);
+ }	
+.box{
+	border:5px solid black;
+} 
 .box1{
 	background-color:#470afc;
-	height:200px;
-	width:210px;
-	border:15px solid black;
-	
+	grid-column: span 2;
+	grid-row: span 2;
 }
 .box2{
 	background: #fc0303;
-	height:250px;
-	width:210px;
-	border:10px solid black;
+	grid-row: span 5;
 }
 .box3{
 	background: white;
-	height:130px;
-	width:170px;
-	border:10px solid black;
+	grid-column: span 3;
+	grid-row: span 1;
 }
 .box4{
 	background:#e5e81e;
-	height: 200px;
-	width: 250px;
-	border: 15px solid black;
+	grid-column: span 2;
+	
 }
 .box5{
 	background: white;
-	height: 120px;
-	width: 150px;
-	border: 15px solid black;
+	grid-column: span 4;
+	grid-row: span 2;
+
 }.box6{
 	background: blue;
-	height: 200px;
-	width:200px;
-	border:15px solid black;
+	
 }
 .box7{
 	background: #5DADE2;
-	height:100px;
-	width:120px;
-	border:10px solid black;
-	margin:-10px;
+	
 	
 }
 .box8{
 	background: red;
-	height:150px;
-	width:160px;
-	border:15px solid black;
+	
 }
 .box9{
 	background: yellow;
-	height:190px;
-	width:220px;
-	border: 15px solid black;	
 }
 .box10{
 	background: blue;
-	height:240px;
-	width:240px;
-	border: 20px solid black;
+	
 }
+	
+
+
+
+
+  
+  
+ 
+  
