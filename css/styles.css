@@ -10,6 +10,9 @@ background-color: #0E82F6;
 text-align:center;
 
 }
+li{
+	list-style: none;
+}
 .grid-container{
 	display: grid;
 	grid-template-columns: repeat(5,10em) 20em 15em 10em 15em;
@@ -26,6 +29,7 @@ text-align:center;
 .box2{
 	background: #fc0303;
 	grid-row: span 5;
+	grid-column: span 2;
 }
 .box3{
 	background: white;
@@ -35,31 +39,43 @@ text-align:center;
 .box4{
 	background:#e5e81e;
 	grid-column: span 2;
+	grid-row: span 1;
 	
 }
 .box5{
 	background: white;
-	grid-column: span 4;
+	grid-column: span 3;
 	grid-row: span 2;
 
 }.box6{
 	background: blue;
+	grid-column: span 2;
+	grid-row: span 1;
 	
 }
 .box7{
 	background: #5DADE2;
+	grid-row: span 3;
+	grid-column: span 1;
 	
 	
 }
 .box8{
 	background: red;
+	grid-column:span 1;
+	grid-row: span 1;
 	
 }
 .box9{
 	background: yellow;
+	grid-column: span 3;
+	grid-row: span 1;
+	
 }
 .box10{
 	background: blue;
+	grid-column: span 2;
+	grid-row: span 2;
 	
 }
 	
